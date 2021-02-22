@@ -1,1 +1,9 @@
-<p>menu works!</p>
+<div>
+    <h1>Bienvenido Asesor</h1>
+</div>
+<mat-selection-list [multiple]="false">
+    <mat-list-option *ngFor="let ruta of direccion">
+        <a mat-list-item [routerLink]="ruta.path">
+            <mat-icon class="icono">{{ruta.icon}}</mat-icon>{{ruta.name}}</a>
+    </mat-list-option>
+</mat-selection-list>
