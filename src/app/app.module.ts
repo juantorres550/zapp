@@ -25,6 +25,9 @@ import { HomeComponent } from './components/home/home.component';
 import { AsesorComponent } from './components/asesor/asesor.component';
 
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { MeetingsComponent } from './components/meetings/meetings.component';
+import { CallsComponent } from './components/calls/calls.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 
 
@@ -34,7 +37,13 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
     HomeComponent,
     AsesorComponent,
   
-    SidenavComponent
+    SidenavComponent,
+  
+    MeetingsComponent,
+  
+    CallsComponent,
+  
+    MenuComponent
   ],
   imports: [
     BrowserModule,
